@@ -1,0 +1,111 @@
+:root{
+    justify-content:center;
+display: flex;
+}
+body {
+    margin: 10px;
+}
+/* Start of Language button CSS Rules */
+
+.Langbtn {
+    position: absolute;
+
+}
+
+.LangNav {
+    background-color: rgb(255,255,255,0.6);
+    padding: 16px;
+    font-weight: bold;
+    border: none;
+    width: 102px;
+}
+
+.dropdownmenu {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    box-shadow: 0px 10px 20px 0px rgba(0,0,0,0.5);
+    width: 102px;
+}
+
+    .dropdownmenu a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+
+        .dropdownmenu a:hover {
+            background-color: Highlight;
+        }
+
+.Langbtn:hover .dropdownmenu {
+    display: block;
+}
+
+.Langbtn:hover .LangNav {
+    background-color: aqua;
+}
+
+/* End of Language button CSS Rules */
+
+/* ----------------------------------------------------- */
+
+/* Start of Navigation Bar CSS Rules */
+
+/*.hder {
+    position: relative;
+}*/
+
+nav {
+    position: absolute;
+    bottom: 4px;
+    left: 0;
+}
+
+.nav1 {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(255,255,255,0.6)
+}
+
+    .nav1 a {
+        float: right;
+        color: black;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+        .nav1 a:hover {
+            background-color: white;
+        }
+
+.Langbtn {
+    position: absolute;
+}
+
+header {
+    width: 100%;
+    position: relative;
+    display: flex;
+}
+
+/* End of Navigation Bar CSS Rules */
+h1{
+    font-size:70px;
+    color:red;
+    text-align: center;
+
+}
+
+footer {
+    background: linear-gradient(to right, red 10%,blue 80%);
+    display: flex;
+    position: relative;
+}
+
+    footer p {
+        text-align: center;
+    }
